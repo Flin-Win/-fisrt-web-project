@@ -1,0 +1,71 @@
+.text1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    text-decoration: line-through;
+    letter-spacing: 3px;
+    
+}
+.eng{
+    background-color: aqua;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.score-math{
+    font-size: 40px;
+}
+.icono-1{
+    transition: all 1s ease;
+}
+.icono-1:hover{
+    transform: translateY(-10px);
+}
+.icono-2{
+    transition: all 0.7s ease;
+} 
+.icono-2:hover{
+    transform: translateX(-8px);
+}
+.icono-3{
+    transition: all 0.6s ease;
+}
+.icono-3:hover{
+    transform: translateY(-10px) rotate(1deg);
+}
+.math{
+    transition: all 0.3s;
+    animation: alternate;
+    background-color: aquamarine;
+    width: 400px;
+    height: 150px;
+    padding: 40px;
+    
+}
+.icono-1{
+    background-color: blue;
+    width: 30px;
+    border-radius: 50px};
+
+.math:hover{
+    transform: rotate(2deg);
+}
+.imagen1{
+    animation: mov 5s linear infinite;
+    border-radius: 70%;
+
+}
+@keyframes mov {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+

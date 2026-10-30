@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../my _fist_project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "desarrollo web acm"
+	}
+}
